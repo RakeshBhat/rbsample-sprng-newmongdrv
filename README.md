@@ -1,9 +1,11 @@
 ## Description
 How to use latest spring data still continue using existing spring/spring-boot parent
 1. In the POM add this to the properties section
-`	<properties>
+```xml
+	<properties>
 		<spring-data-releasetrain.version>Kay-SR4</spring-data-releasetrain.version>
-	</properties>`
+	</properties>
+```	
 2. Add exclusions for the mongodb Jars, under spring-boot-starter-data-mongodb dependency
 
 3. Add The MongoDB Java Driver uber-artifact dependency
